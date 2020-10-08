@@ -18,7 +18,7 @@ db.add("item2", "value2")
 # print the database
 print(db.dump("my-awesome-database"))
 # will output:
-# {"item1": "value1", "item2", "value2"}
+# {"item1": "value1", "item2": "value2"}
 
 # print the value of a key
 print(db.get("item2"))
@@ -31,4 +31,3 @@ db.update("item2", "new-item-2")
 # delete a database
 db.delete_database("my-awesome-database")
 ```
-
